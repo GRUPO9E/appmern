@@ -1,0 +1,99 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.header--style{
+  height: 5vh;
+}
+
+.nv{
+  height: 95vh;
+}
+/* ============== Login ================ */
+.log {
+  width: 450px;
+  background: #fff;
+  border-radius: 5px;
+}
+
+.img-login{
+  width:400px;
+}
+
+.contlogin{
+  width: 100%;  
+  min-height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  /* background-image: #0250c5; 
+  background-image: -webkit-linear-gradient(bottom, #0250c5, #e60e0e);
+  background: -moz-linear-gradient(bottom, #0250c5, #e60e0e);
+  background-image: linear-gradient(bottom, #0250c5, #e60e0e); */
+
+  background-image: url(./assets/img/fondo1.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+
+}
+
+.btn-google {
+  font-family: Raleway-Bold;
+  
+  line-height: 1.2;
+  text-decoration: none;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: calc((100% - 10px) / 2);
+  height: 40px;
+  border-radius: 3px;
+  border: 1px solid #e6e6e6;
+  background-color: #fff;
+  transition: all 0.4s;
+}
+
+.container--google{
+  font-size: 25px;
+  color: dimgray;
+  text-decoration: none;
+}
